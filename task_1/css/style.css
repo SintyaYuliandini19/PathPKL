@@ -1,0 +1,135 @@
+ #wripper {
+    margin: 0% auto 0% auto;
+    background-color: #0A528E;
+    position: fixed;
+}
+
+#header {
+    width: 30%;
+    height: 45%;
+    margin: 16% auto 0% auto;
+    background: #FFF;
+    opacity: 0.95;
+    padding: 19px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}
+
+#konten {
+    width: 90%;
+    height: 115%;
+    margin: 0% auto 0% auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 19px;
+    background: #FFF;
+    opacity: 0.95;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+body {
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+
+img {
+    margin: 0% auto 0% auto;
+    position: sticky;
+    -webkit-border-image: 2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-family: roboto;
+    text-align: center;
+    margin: 0% auto 0% auto;
+}
+
+.blink {
+    animation: blinkblink 1s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+    color: cornflowerblue;
+}
+
+@keyframes blinkblink {
+    0% {
+        color: cornflowerblue;
+    }
+    49% {
+        color: transparent;
+    }
+    50% {
+        color: transparent;
+    }
+    99% {
+        color: transparent;
+    }
+    100% {
+        color: cornflowerblue;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+h4 {
+    color: cornflowerblue;
+    font-family: roboto;
+    text-align: center;
+    margin: 0% auto 0% auto;
+}
+
+td {
+    color: black;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+input {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-inline-end-style: double;
+    border-inline-start-style: groove;
+    display: inline-block;
+    font-style: inherit;
+}
+
+input:hover {
+    display: inline-block;
+    background-color: darksalmon;
+}
+
+select {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-inline-end-style: double;
+    border-inline-start-style: groove;
+}
+
+select:hover {
+    display: inline-block;
+    background-color: darksalmon;
+}
+
+#footer {
+    width: 30%;
+    height: 2%;
+    margin: -1.29% auto 12% auto;
+    background: #FFF;
+    opacity: 0.95;
+    padding: 19px;
+    border-radius: 5px;
+    margin-bottom: 1px;
+}

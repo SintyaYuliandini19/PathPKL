@@ -1,0 +1,76 @@
+                            #wripper {
+                                margin: 0% auto 0% auto;
+                                background-color: inherit;
+                                position: relative;
+                                min-height: 100%;
+                            }
+                            
+                            #konten {
+                                width: 90%;
+                                height: 200%;
+                                margin: 0% auto 0% auto;
+                                border-radius: 5px;
+                                margin-bottom: 20px;
+                                padding: 19px;
+                                background: whitesmoke;
+                                opacity: 0.95;
+                                border-bottom-left-radius: 3%;
+                                border-bottom-right-radius: 3%;
+                            }
+                            
+                            
+                            
+                            img {
+                                margin: 0% auto 0% auto;
+                                position: sticky;
+                                -webkit-border-image: 2px;
+                                border-bottom-left-radius: 20px;
+                                border-bottom-right-radius: 20px;
+                                border-top-left-radius: 20px;
+                                border-top-right-radius: 20px;
+                            }
+                            
+                            h1 {
+                                color: grey;
+                                font-family: roboto;
+                                margin: 0% auto 0% auto;
+                            }
+                            
+                            td {
+                                color: rgb(70, 69, 67);
+                            }
+                            
+                            input {
+                                color: blueviolet;
+                                font-family: Roboto;
+                                font-size: 20px;
+                            }
+                            
+                            #customers {
+                                font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                                border-collapse: collapse;
+                                width: 100%;
+                            }
+                            
+                            #customers td,
+                            #customers th {
+                                border: 1px solid #ddd;
+                                padding: 6px;
+                            }
+                            
+                            #customers tr:nth-child(even) {
+                                background-color: #f2f2f2;
+                            }
+                            
+                            #customers tr:hover {
+                                background-color: cornflowerblue;
+                            }
+                            
+                            #customers th {
+                                padding-top: 12px;
+                                padding-bottom: 12px;
+                                text-align: left;
+                                background-color: coral;
+                                color: white;
+                                text-align: center;
+                            }
